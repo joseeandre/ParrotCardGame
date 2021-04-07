@@ -1,0 +1,9 @@
+@media (max-width: 630px) {
+    .topo {
+        font-size: 36px;
+    }
+    .cartas {
+        display: flex;
+        flex-direction: column;
+    }
+}
