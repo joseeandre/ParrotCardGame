@@ -2,7 +2,7 @@ var hh = 0;
 var mm = 0;
 var ss = 0;
 
-var tempo = 1000; //Quantos milésimos valem 1 segundo?
+var tempo = 10;
 var cron;
 
 function start() {
@@ -19,7 +19,7 @@ function stop() {
 function timer() {
     ss++;
 
-    if (ss == 59) {
+    if (ss == 99) {
         ss = 0;
         mm++;
 
@@ -29,7 +29,7 @@ function timer() {
         }
     }
 
-    var format = (hh < 10 ? '0' + hh : hh) + ':' + (mm < 10 ? '0' + mm : mm) + ':' + (ss < 10 ? '0' + ss : ss);
+    var format = (hh < 10 ? '0' + hh : hh) + ':' + (mm < 10 ? '0' + mm : mm) + '.' + (ss < 10 ? '0' + ss : ss);
 
     document.getElementById('counter').innerText = format;
 
