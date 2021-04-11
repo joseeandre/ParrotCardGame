@@ -1,6 +1,6 @@
 ![game](https://i.imgur.com/VhscSU8.gif)
 
-# Projeto site globo.com
+# Projeto Parrot Card Game
 
 Quarto projeto do Bootcamp Responde Aí. Jogo da memória "Parrot Card Game" implementado com html, css e javascript. Disponível nas versões desktop e mobile.
 
